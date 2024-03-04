@@ -11,11 +11,11 @@ class StudentList extends Component {
         <Table className="table">
           <thead>
             <tr>
-              <th>#</th>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Group</th>
-              <th>Does work?</th>
+              <th>🆔</th>
+              <th>Firstname🙋‍♂️</th>
+              <th>Lastname👴</th>
+              <th>Group🧑‍🏫</th>
+              <th>Does work?🧑‍💻</th>
               <th>Actions</th>
             </tr>
           </thead>

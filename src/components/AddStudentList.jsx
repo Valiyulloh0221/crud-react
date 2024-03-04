@@ -14,33 +14,30 @@ class AddStudentList extends Component {
           <Modal.Body>
             <form>
               <div className='mb-3'>
-                <label htmlFor="firstName" className='form-label'>Firstname🙋‍♂</label>
-                <input type="text" className='form-control' id='firstName' />
+                <label htmlFor="firstName" className='form-label'>Firstname🙋‍♂️</label>
+                <input placeholder='Valiyulloh' type="text" className='form-control' id='firstName' />
               </div>
               <div className='mb-3'>
                 <label htmlFor="lastName" className='form-label'>Lastname👴</label>
-                <input type="text" className='form-control' id='lastName' />
-              </div>
-              <div className=''>
-
+                <input placeholder='Abdumitalipov' type="text" className='form-control' id='lastName' />
               </div>
               <div className='mb-3'>
-                <select className='form-select'>
-                  <option value="">React N-32</option>
-                  <option value="">React N-38</option>
-                  <option value="">React N-41</option>
-                  <option value="">React N-45</option>
+                <select className='form-control' id='group'>
+                  <option value="">React N-32🧑‍🏫</option>
+                  <option value="">React N-38🧑‍🏫</option>
+                  <option value="">React N-41🧑‍🏫</option>
+                  <option value="">React N-45🧑‍🏫</option>
                 </select>
               </div>
-              <div className='mb-3 form-check'>
+              <div className="mb-3 form-check">
                 <input type="checkbox" className='form-check-input' id='work' />
-                <label htmlFor="work" className='form-check-label'>Does work?</label>
+                <label htmlFor="work">Does work?🧑‍💻</label>
               </div>
             </form>
           </ Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={closeModal}>Cancel</Button>
-            <Button variant="primary" onClick={closeModal}>Save</Button>
+            <Button variant="secondary" onClick={closeModal}>Cancel❌</Button>
+            <Button variant="primary" onClick={closeModal}>Save📥</Button>
           </ Modal.Footer>
         </ Modal>
       </div>
