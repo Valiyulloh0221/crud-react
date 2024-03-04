@@ -7,7 +7,7 @@ class AddStudentList extends Component {
     const {closeModal, addModal} = this.props;
     return (
       <div>
-        <Modal show={addModal} onHide={this.closeModal}>
+        <Modal show={addModal} onHide={closeModal}>
           <Modal.Header closeButton>
             <Modal.Title>Add student</ Modal.Title>
           </ Modal.Header>
